@@ -1,0 +1,28 @@
+.menu {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: rgb(73,109,111); 
+}
+.menu__button {
+    border: none;
+    color: #e9eef1;
+    background-color: transparent;
+    font: inherit;
+    cursor: pointer;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.menu__item:hover .menu__button,
+.menu__item:focus-within .menu__button {
+    background-color: rgb(103,93,88);
+    color: white;
+    text-decoration: underline;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    position: static;
+}

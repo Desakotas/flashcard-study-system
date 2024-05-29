@@ -1,0 +1,101 @@
+.test {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+	padding: 2rem; 
+
+	border: 1px solid black;
+	border-radius: 16px;
+	background-color: aliceblue;
+    min-width: 40rem;
+}
+
+.status-board {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2rem auto;
+	padding: 1rem; 
+    max-width: 20rem;
+	border: 1px solid black;
+    background-color: white;
+    border-radius: 1rem;
+    gap: 2rem;
+}
+
+.progress, .time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+.question {
+    width: auto; 
+    max-width: 40rem; 
+    min-height: 1rem;
+    font-size: 1.2rem;
+    margin: 2rem auto; 
+    padding: 2rem; 
+    background-color: aliceblue;
+    text-align: center; 
+    align-content: center;
+}
+
+.test-control {
+    display: flex;
+    justify-content: center; 
+    gap: 1rem; 
+    margin: 2rem auto; 
+}
+
+.button-know {
+    font-size: 1rem;
+    border-radius: 1.2rem;
+    border: 0;
+    background-color: white;
+    color: red;
+    height: 6rem;
+    width: 6rem;
+    margin-right: 2rem;
+}
+
+.button-notknow {
+    font-size: 1rem;
+    border-radius: 1.2rem;
+    border: 0;
+    background-color: white;
+    color:green;
+    height: 6rem;
+    width: 6rem;
+}
+
+.button-quit {
+    border-radius: 1rem;
+    background-color: white;
+    height: 2rem;
+    width: 4rem;
+    align-self: flex-end;
+}
+
+.test-result {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.result-content {
+    align-self: center;
+    font-size: 1.5rem;
+}
+
+.result-button{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+.button-retake, .button-back {
+    border-radius: 1rem;
+    background-color: white;
+    height: 2rem;
+    width: 6rem;
+}
